@@ -84,7 +84,7 @@ def network_3d(y, residualnum):
     # y = add_common_layers(y)
     # y = Conv3DTranspose(2, kernel_size=(3, 3, 3), strides=(2, 1, 1), padding='same')(y)
     # y = add_common_layers(y)
-    # y = Conv3DTranspose(2, kernel_size=(3, 3, 3), strides=(2, 2, 2), padding='same')(y)
+    # y = Conv3DTranspose(2, kernel_size=(3, 3, 3), strides=(2, 1, 2), padding='same')(y)
     # y = add_common_layers(y)
 
     # 恢复
